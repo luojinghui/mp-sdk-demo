@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="avathor">
+      <view class="demo">示例SDK小程序</view>
+    </view>
+    <view class="form">
+      <view class="from-grop">
+        <button type="primary" bindtap="onLogin">执行初始登录</button>
+      </view>
+    </view>
+    <view class="form">
+      <view class="form-group">
+        <input class="form-input" id="number" value="{{ meeting.number }}" type="text" bindinput="bindFromInput" placeholder="会议号" />
+      </view>
+      <view class="form-group">
+        <input class="form-input" id="password" type="text" bindinput="bindFromInput" placeholder="入会密码" />
+      </view>
+      <view class="form-group">
+        <input class="form-input" id="name" type="text" bindinput="bindFromInput" placeholder="入会名称" />
+      </view>
+
+      <view class="from-grop">
+        <button type="primary" bindtap="onJoinMeeting">立即入会</button>
+      </view>
+    </view>
+  </view>

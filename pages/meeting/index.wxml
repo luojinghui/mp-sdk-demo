@@ -1,0 +1,28 @@
+<!-- index.wxml -->
+<view class="xylink-container">
+  <view hidden="{{ onHold }}">
+    <view wx:if="{{ meetingLoading }}">loading...</view>
+    <view wx:else>
+      <view class="xylink-operate-box xylink-operate-left">
+        <view bindtap="onChangeMuted" class="trans90">{{ muted ? "mute" : "unmute" }}</view>
+        <view bindtap="onSwitchPosition" class="trans90">
+          {{ devicePosition === 'front' ? "前置" : "后置" }}
+        </view>
+        <view bindtap="onSwitchCamera" class="trans90">{{ camera ? "关闭视频" : "开启视频" }}</view>
+        <view bindtap="onStopMeeting" class="trans90">挂断</view>
+      </view>
+      <view class="xylink-operate-box xylink-operate-right"></view>
+    </view>
+    <xylink-room template="{{ template }}" beauty="{{ 6 }}" muted="{{ muted }}" camera="{{camera}}" devicePosition="{{ devicePosition }}" waitingImage="https://devcdn.xylink.com/assets/common/img/bg-theme.jpg" id="xylink" bindonRoomEvent="onRoomEvent"></xylink-room>
+  </view>
+  <!-- 呼叫等待 -->
+  <view wx:if="{{ onHold }}" bindtap="onClickContent" class="xy__call xy-translate">
+    <view class="xy__call-box">
+      <view class="xy__call-person-image">
+        <cover-image class="img" src="{{ avatar }}" wx:if="{{ avatar }}" />
+      </view>
+      <view class="xy__call-person-name">{{ displayName }}</view>
+      <view class="xy__call-person-status" bindtap="onHoldScreen">等待入会中，稍后主持人会邀请您加入</view>
+    </view>
+  </view>
+</view>

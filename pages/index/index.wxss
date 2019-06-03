@@ -1,0 +1,32 @@
+.demo {
+  font-size: 36rpx;
+  margin-bottom: 50rpx;
+}
+.form {
+    margin: 10rpx 0;
+    width: 80vw;
+  }
+  .form-group {
+    margin: 25rpx auto;
+    width: 80vw;
+  }
+  .form-input {
+    border: 1px solid #ddd;
+    font-size: 30rpx;
+    padding: 0 10rpx;
+    height: 80rpx;
+  }
+  .avathor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .avathor-name {
+    font-size: 30rpx;
+  }
+  .avathor-img {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+  }

@@ -1,0 +1,74 @@
+.xylink-container {
+  background-color: #1f1f25;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+}
+.xylink-operate-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 14vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 24rpx;
+}
+.xylink-operate-right {
+  left: 86vw;
+}
+.trans90 {
+  padding: 20px 10px;
+  transform: rotateZ(90deg);
+}
+
+.xy-translate {
+  display: block;
+  transform: rotate(90deg);
+}
+.xy__call {
+  z-index: 100;
+}
+.xy__call-box {
+  width: 100vh;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.xy__call-image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 10px;
+}
+.xy__call-image .img {
+  border-radius: 60rpx;
+}
+.xy__call-person-image {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  border: 2rpx solid #fff;
+}
+.xy__call-person-image .img {
+  border-radius: 70rpx;
+  transform: rotateZ(90deg);
+}
+.xy__call-person-name {
+  margin-top: 20rpx;
+  font-size: 32rpx;
+}
+.xy__call-person-status {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+}
+.xy__call .img {
+  width: 100%;
+  height: 100%;
+}

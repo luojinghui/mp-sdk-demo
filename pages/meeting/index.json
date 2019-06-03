@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "xylink-room": "xylink-sdk"
+  },
+  "disableScroll": true,
+  "disableSwipeBack": true
+}
