@@ -2,6 +2,7 @@
   "usingComponents": {
     "xylink-room": "xylink-sdk"
   },
+  "navigationBarBackgroundColor": "#000",
   "disableScroll": true,
   "disableSwipeBack": true
 }

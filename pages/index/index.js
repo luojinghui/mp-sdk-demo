@@ -7,26 +7,29 @@ const app = getApp()
 Page({
   data: {
     meeting: {
-      number: "915353622534",
+      number: "",
       password: "",
-      name: "测试账号"
+      name: ""
     }    
   },
   onLoad() {
-    // xylink.setDomain('wss://devtxlive.xylink.com','https://devtxlive.xylink.com');
+    // 默认sdk是线上环境，可不用设置sdk环境域名。
+    // xylink.setDomain('wss://prdtxlive.xylink.com','https://prdtxlive.xylink.com');
   },
   // 执行初始化登录
   onLogin() {
     // 重要提示
     // 重要提示
     // 重要提示
+    // params {string} token
+    // cb {function} login回调函数
     // 此处第三方开发者需要自行与服务器交互，获取token，然后填写到login的第一个参数里面执行初始化登录
     // 可以将获取到的callNumber作为登录标示记录到本地，后续入会可不用再次执行xylink.login操作
     // 具体参见接口文档： https://opensdk.xylink.com/xylink/mp-sdk/wikis/server_api
     // 重要提示
     // 重要提示
     // 重要提示
-    xylink.login("8c420b25f5d9459abcba582307ebfd0e", this.onCallbackGetNumber);
+    xylink.login("", this.onCallbackGetNumber);
   },
   // 执行初始化登录回调函数
   onCallbackGetNumber(res) {
@@ -97,6 +100,7 @@ Page({
       return;
     }
 
+    // 跳到会议页面，开始进行入会
     wx.navigateTo({
       url: `/pages/meeting/index?name=${name}&password=${password}&number=${number}`
     });

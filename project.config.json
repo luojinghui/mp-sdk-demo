@@ -15,7 +15,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-	"appid": "wx6f54c06e0cec98ff",
+	"appid": "",
 	"projectname": "xylink-sdk-demo",
 	"debugOptions": {
 		"hidedInDevtools": []
