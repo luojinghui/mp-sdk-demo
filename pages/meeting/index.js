@@ -21,11 +21,26 @@ Page({
       layout: "auto",
       mode: "4-1",
       detail: []
-    }
+    },
+    test: false
   },
 
   onLoad(option) {
     this.pageParams = option;
+
+    const _this = this;
+
+    this.timmer = setTimeout(() => {
+      console.log(123, this.data);
+
+      this.setData({
+        test: !this.data.test
+      })
+    }, 3000);
+  },
+
+  onUnload() {
+    clearTimeout(this.timmer);
   },
 
   // 会议页面准备阶段的生命周期函数
