@@ -25,5 +25,4 @@
       <view class="xy__call-person-status" bindtap="onHoldScreen">等待入会中，稍后主持人会邀请您加入</view>
     </view>
   </view>
-  <cover-view class="test" wx:if="{{ test }}">{{ test }}测试数据123123123</cover-view>
 </view>

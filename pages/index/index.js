@@ -22,8 +22,7 @@ Page({
     // 重要提示
     // 重要提示
     // params {string} token
-    // cb {function} login回调函数
-    // 此处第三方开发者需要自行与服务器交互，获取token，然后填写到login的第一个参数里面执行初始化登录
+    // cb {function} login回互，获取token，然后填写到login的第一个参数里面执行初始化登录
     // 可以将获取到的callNumber作为登录标示记录到本地，后续入会可不用再次执行xylink.login操作
     // 具体参见接口文档： https://opensdk.xylink.com/xylink/mp-sdk/wikis/server_api
     // 重要提示

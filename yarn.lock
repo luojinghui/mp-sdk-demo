@@ -7,7 +7,7 @@ miniprogram-computed@^0.0.6:
   resolved "https://registry.npmjs.org/miniprogram-computed/-/miniprogram-computed-0.0.6.tgz#c8fc83517a1394ee436838a2bb266ec4ab58da2f"
 
 xylink-sdk@^1.0.40:
-  version "1.0.41"
-  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.41.tgz#607a754e83a39f48994f247c3ed06c03594639f8"
+  version "1.0.42"
+  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.42.tgz#eb2412d988b7e02419d93a5ba3dedb5498a216d7"
   dependencies:
     miniprogram-computed "^0.0.6"
