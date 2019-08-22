@@ -28,7 +28,7 @@ Page({
     // 重要提示
     // 重要提示
     // 重要提示
-    xylink.login("1e8da8400722407ba91e1367e6744fd9", this.onCallbackGetNumber);
+    xylink.login("", this.onCallbackGetNumber);
   },
   // 执行初始化登录回调函数
   onCallbackGetNumber(res) {
