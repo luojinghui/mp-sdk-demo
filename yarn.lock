@@ -2,12 +2,41 @@
 # yarn lockfile v1
 
 
+clone-deep@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
+  dependencies:
+    is-plain-object "^2.0.4"
+    kind-of "^6.0.2"
+    shallow-clone "^3.0.0"
+
+is-plain-object@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  dependencies:
+    isobject "^3.0.1"
+
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+kind-of@^6.0.2:
+  version "6.0.3"
+  resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
+
 miniprogram-computed@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/miniprogram-computed/-/miniprogram-computed-0.0.6.tgz#c8fc83517a1394ee436838a2bb266ec4ab58da2f"
 
-xylink-sdk@^1.0.40:
-  version "1.0.43"
-  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.43.tgz#c827fe1f65b93ad9516a4d32462180314f0e44b1"
+shallow-clone@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz#8f2981ad92531f55035b01fb230769a40e02efa3"
   dependencies:
+    kind-of "^6.0.2"
+
+xylink-sdk@^1.0.40:
+  version "1.0.52"
+  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.52.tgz#147c179aa990d4df1ab2dbe99ba970be8824f127"
+  dependencies:
+    clone-deep "^4.0.1"
     miniprogram-computed "^0.0.6"

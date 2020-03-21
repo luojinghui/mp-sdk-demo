@@ -16,7 +16,7 @@
         <input class="form-input" id="password" type="text" bindinput="bindFromInput" placeholder="入会密码" />
       </view>
       <view class="form-group">
-        <input class="form-input" id="name" type="text" bindinput="bindFromInput" placeholder="入会名称" />
+        <input class="form-input" id="name" value="{{ meeting.name }}"  type="text" bindinput="bindFromInput" placeholder="入会名称" />
       </view>
 
       <view class="from-grop">

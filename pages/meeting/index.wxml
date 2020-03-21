@@ -11,7 +11,8 @@
         <view bindtap="onSwitchCamera" class="trans90">{{ camera ? "关闭视频" : "开启视频" }}</view>
         <view bindtap="onStopMeeting" class="trans90">挂断</view>
       </view>
-      <view class="xylink-operate-box xylink-operate-right"></view>
+      <!-- 隐藏上方的状态栏 -->
+      <!-- <view class="xylink-operate-box xylink-operate-right"></view> -->
     </view>
     <xylink-room template="{{ template }}" beauty="{{ 6 }}" muted="{{ muted }}" camera="{{camera}}" devicePosition="{{ devicePosition }}" waitingImage="https://devcdn.xylink.com/assets/common/img/bg-theme.jpg" id="xylink" bindonRoomEvent="onRoomEvent"></xylink-room>
   </view>
