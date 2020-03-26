@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+    <view>
+    test page
+    </view>
+  </view>

@@ -69,7 +69,7 @@ Page({
 		// }
 
 		// custom模式，不用配置mode模式（需自行定义页面布局）
-    // 在onLoad声明函数内，更新会中初始画面
+		// 在onLoad声明函数内，更新会中初始画面
 		template: {
 			layout: 'custom',
 			detail: []
@@ -239,7 +239,8 @@ Page({
 							position: positionMap[len].other[index].position,
 							callNumber: item.callNumber,
 							name: item.displayName || '',
-							quality: 'normal',
+              // 如果roster item中的isContent为true，代表是Content内容，需要将质量设置为hd（720p）分辨率
+							quality: item.isContent ? 'hd' : 'normal',
 							isContent: item.isContent
 						});
 					});
@@ -254,6 +255,12 @@ Page({
 						})
 					});
 				}
+
+				break;
+			case 'event':
+        // 内部每一项layout的点击事件
+        // 如果存在roster item数据，则通过：message.target.item获取到当前点击的屏幕所对应的roster数据
+				console.log('detail: ', message.target);
 
 				break;
 			default: {
@@ -279,6 +286,12 @@ Page({
 					});
 				}, 3000);
 			}
+		});
+	},
+
+	jump() {
+		wx.navigateTo({
+			url: `/pages/test/index`
 		});
 	}
 });

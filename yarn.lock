@@ -35,8 +35,8 @@ shallow-clone@^3.0.0:
     kind-of "^6.0.2"
 
 xylink-sdk@^1.0.40:
-  version "1.0.52"
-  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.52.tgz#147c179aa990d4df1ab2dbe99ba970be8824f127"
+  version "1.0.55"
+  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.55.tgz#01f8eed8aa6dbfe1e95bd2249ba32b5458632068"
   dependencies:
     clone-deep "^4.0.1"
     miniprogram-computed "^0.0.6"

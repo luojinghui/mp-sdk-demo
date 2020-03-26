@@ -10,6 +10,7 @@
         </view>
         <view bindtap="onSwitchCamera" class="trans90">{{ camera ? "关闭视频" : "开启视频" }}</view>
         <view bindtap="onStopMeeting" class="trans90">挂断</view>
+        <view bindtap="jump" class="trans90">jump</view>
       </view>
       <!-- 隐藏上方的状态栏 -->
       <!-- <view class="xylink-operate-box xylink-operate-right"></view> -->
