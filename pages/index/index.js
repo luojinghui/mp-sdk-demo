@@ -7,9 +7,9 @@ const app = getApp();
 Page({
 	data: {
 		meeting: {
-			number: '915353622534',
+			number: '',
 			password: '',
-			name: '测试法官'
+			name: ''
 		}
 	},
 	onLoad(option) {
@@ -28,7 +28,7 @@ Page({
 		// 重要提示
 		// 重要提示
 		// 重要提示
-    xylink.login('87ce23bfd2864aa7b851260f0d571716', this.onCallbackGetNumber);
+    xylink.login('', this.onCallbackGetNumber);
 	},
 	// 执行初始化登录回调函数
 	onCallbackGetNumber(res) {
