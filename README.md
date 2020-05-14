@@ -21,4 +21,4 @@
 1. 使用Node >= 8.10版本;
 2. 使用yarn安装依赖;
 3. 微信开发者工具不支持推拉流，请使用真机调试音视频;
-4. 此Demo使用于auto和custom模式，默认custom模式，如需要使用auto模式，请在页面中自行配置。
+4. 此Demo包含auto和custom模式，可自行在meeting page配置;
