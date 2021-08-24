@@ -4,7 +4,8 @@
 
 clone-deep@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
+  resolved "https://registry.npm.taobao.org/clone-deep/download/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
+  integrity sha1-wZ/Zvbv4WUK0/ZechNz31fB8I4c=
   dependencies:
     is-plain-object "^2.0.4"
     kind-of "^6.0.2"
@@ -12,31 +13,37 @@ clone-deep@^4.0.1:
 
 is-plain-object@^2.0.4:
   version "2.0.4"
-  resolved "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  resolved "https://registry.npm.taobao.org/is-plain-object/download/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  integrity sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc=
   dependencies:
     isobject "^3.0.1"
 
 isobject@^3.0.1:
   version "3.0.1"
-  resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  resolved "https://registry.npm.taobao.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
 kind-of@^6.0.2:
   version "6.0.3"
-  resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
+  resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
+  integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
 miniprogram-computed@^0.0.6:
   version "0.0.6"
-  resolved "https://registry.npmjs.org/miniprogram-computed/-/miniprogram-computed-0.0.6.tgz#c8fc83517a1394ee436838a2bb266ec4ab58da2f"
+  resolved "https://registry.npm.taobao.org/miniprogram-computed/download/miniprogram-computed-0.0.6.tgz#c8fc83517a1394ee436838a2bb266ec4ab58da2f"
+  integrity sha1-yPyDUXoTlO5DaDiiuyZuxKtY2i8=
 
 shallow-clone@^3.0.0:
   version "3.0.1"
-  resolved "https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz#8f2981ad92531f55035b01fb230769a40e02efa3"
+  resolved "https://registry.npm.taobao.org/shallow-clone/download/shallow-clone-3.0.1.tgz#8f2981ad92531f55035b01fb230769a40e02efa3"
+  integrity sha1-jymBrZJTH1UDWwH7IwdppA4C76M=
   dependencies:
     kind-of "^6.0.2"
 
-xylink-sdk@^1.0.64:
-  version "1.0.64"
-  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.64.tgz#53170d7e83010ffccacbcb6925da99e4c20bdd2c"
+xylink-sdk@^1.0.73:
+  version "1.0.73"
+  resolved "https://registry.npmjs.org/xylink-sdk/-/xylink-sdk-1.0.73.tgz#fdf3a15cf1a3bfa1de0a78ff38c0e5ede6041771"
+  integrity sha512-vbFO/NW/sdNvNiWPbxqs27ECx2CHN8448Z+KD5EzF4uJo2eGLchZP2XCjpCwAvtEzKt7nG+Ka7g6GCPrWjxY1Q==
   dependencies:
     clone-deep "^4.0.1"
     miniprogram-computed "^0.0.6"
